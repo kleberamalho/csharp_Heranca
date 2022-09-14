@@ -1,0 +1,15 @@
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\bin\Debug\net6.0\BangBank_ADM.exe
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\bin\Debug\net6.0\BangBank_ADM.deps.json
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\bin\Debug\net6.0\BangBank_ADM.runtimeconfig.json
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\bin\Debug\net6.0\BangBank_ADM.dll
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\bin\Debug\net6.0\BangBank_ADM.pdb
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.csproj.AssemblyReference.cache
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.AssemblyInfoInputs.cache
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.AssemblyInfo.cs
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.csproj.CoreCompileInputs.cache
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.dll
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\refint\BangBank_ADM.dll
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.pdb
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\BangBank_ADM.genruntimeconfig.cache
+D:\Workspace\csharp_Heranca\BangBank_ADM\BangBank_ADM\obj\Debug\net6.0\ref\BangBank_ADM.dll
