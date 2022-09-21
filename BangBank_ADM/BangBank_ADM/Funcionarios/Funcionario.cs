@@ -6,15 +6,21 @@ using System.Threading.Tasks;
 
 namespace BangBank_ADM.Funcionarios
 {
-    public class Funcionario
+    public abstract class Funcionario
     {
-        //private int _tipo;
         public string Nome { get; set; }
-        public string Cpf { get; set; }
-        public double Salario { get; set; }
-        public double getBonificacao() 
+        public string Cpf { get; private set; }
+        public double Salario { get; protected set; }
+        public static int totalFuncionarios { get; private set; }
+
+        public Funcionario(string cpf, double salario) 
         {
-            return Salario * 0.10;
+            this.Cpf = cpf;
+            this.Salario = salario;
+            Console.WriteLine("Criando um funcionario.");
+            totalFuncionarios ++;
         }
+        public abstract double getBonificacao();
+        public abstract void AumentarSalario();
     }
 }

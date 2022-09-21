@@ -1,30 +1,35 @@
 ﻿using BangBank_ADM.Funcionarios;
 using BangBank_ADM.Utilitario;
 
-Console.WriteLine("BangBank!!!");
+CalcularBonificacao();
 
-GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
+void CalcularBonificacao() 
+{
+    GerenciadorDeBonificacao gerenciador = new GerenciadorDeBonificacao();
 
-Funcionario renan = new Funcionario();
-renan.Nome = "Renan";
-renan.Cpf = "874455631";
-renan.Salario = 2000;
+    Desenvolvedor kleber = new Desenvolvedor("41344986376");
+    kleber.Nome = "Kleber";
 
-//Console.WriteLine("Nome: " + renan.Nome);
-//Console.WriteLine("CPF: " + renan.Cpf);
-//Console.WriteLine("Salario: " + renan.Salario);
+    Designer renan = new Designer("420.429.867-66");
+    renan.Nome = "Renan";
 
-Diretor rioner = new Diretor();
-rioner.Nome = "Rioner";
-rioner.Cpf = "69875324";
-rioner.Salario = 5000;
+    Diretor rioner = new Diretor("512.065.969-69");
+    rioner.Nome = "Rioner";
 
-Console.WriteLine("Bonificação: " +renan.getBonificacao());
-Console.WriteLine("Bonificação: " + rioner.getBonificacao());
+    Auxiliar andre = new Auxiliar("516.781.330-97");
+    andre.Nome = "André";
 
-gerenciador.Registrar(renan);
-gerenciador.Registrar(rioner);
+    GerenteDeContas fernando = new GerenteDeContas("225.675.220-51");
+    fernando.Nome = "Fernando";
 
-Console.WriteLine("Total de bonificacao: " + gerenciador.getBonificacao());
+    gerenciador.Registrar(renan);
+    gerenciador.Registrar(rioner);
+    gerenciador.Registrar(andre);
+    gerenciador.Registrar(fernando);
+    gerenciador.Registrar(kleber);
+
+    Console.WriteLine("Total de bonificação: " +gerenciador.getBonificacao());
+
+}
 
 Console.ReadKey();
