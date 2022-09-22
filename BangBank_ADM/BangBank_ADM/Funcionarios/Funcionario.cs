@@ -12,7 +12,6 @@ namespace BangBank_ADM.Funcionarios
         public string Cpf { get; private set; }
         public double Salario { get; protected set; }
         public static int totalFuncionarios { get; private set; }
-
         public Funcionario(string cpf, double salario) 
         {
             this.Cpf = cpf;

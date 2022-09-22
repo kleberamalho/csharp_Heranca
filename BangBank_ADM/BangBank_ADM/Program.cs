@@ -1,7 +1,9 @@
 ﻿using BangBank_ADM.Funcionarios;
+using BangBank_ADM.SistemaInterno;
 using BangBank_ADM.Utilitario;
 
-CalcularBonificacao();
+//CalcularBonificacao();
+UsarSistema();
 
 void CalcularBonificacao() 
 {
@@ -29,6 +31,28 @@ void CalcularBonificacao()
     gerenciador.Registrar(kleber);
 
     Console.WriteLine("Total de bonificação: " +gerenciador.getBonificacao());
+
+}
+
+void UsarSistema()
+{
+    SistemaInterno sistemaInterno = new SistemaInterno();
+
+    Diretor roberto = new Diretor("512.065.969-69");
+    roberto.Nome = "Rioner";
+    roberto.Senha = "123";
+
+    GerenteDeContas Ursula = new GerenteDeContas("225.675.220-51");
+    Ursula.Nome = "Fernando";
+    Ursula.Senha = "321";
+
+    //Funcionario pedro = new Designer("696.675.334-51");
+    //pedro.Nome = "Pedro";
+    //pedro.Senha = "123";
+
+    //sistemaInterno.Logar(pedro, "123");
+    sistemaInterno.Logar(roberto, "123");
+    sistemaInterno.Logar(Ursula, "123");
 
 }
 
