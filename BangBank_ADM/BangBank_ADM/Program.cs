@@ -1,4 +1,5 @@
 ﻿using BangBank_ADM.Funcionarios;
+using BangBank_ADM.ParceriaComercial;
 using BangBank_ADM.SistemaInterno;
 using BangBank_ADM.Utilitario;
 
@@ -50,9 +51,13 @@ void UsarSistema()
     //pedro.Nome = "Pedro";
     //pedro.Senha = "123";
 
+    ParceiroComercial joao = new ParceiroComercial();
+    joao.Senha = "123";
+
     //sistemaInterno.Logar(pedro, "123");
     sistemaInterno.Logar(roberto, "123");
     sistemaInterno.Logar(Ursula, "123");
+    sistemaInterno.Logar(joao, "123");
 
 }
 

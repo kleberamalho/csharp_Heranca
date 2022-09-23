@@ -1,4 +1,5 @@
 ﻿using BangBank_ADM.Funcionarios;
+using BangBank_ADM.ParceriaComercial;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace BangBank_ADM.SistemaInterno
         public bool Logar(Autenticavel funcionario, string senha) 
         {
             bool usuarioAutenticado = funcionario.Autenticar(senha);
-            if (usuarioAutenticado == true)
+            if (usuarioAutenticado)
             {
                 Console.WriteLine("Bem vindo ao Bang Bank");
                 return true;
